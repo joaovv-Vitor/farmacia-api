@@ -1,0 +1,18 @@
+# Framework Web e Servidor
+fastapi[standard]
+uvicorn
+
+# Banco de Dados (ORM e Driver)
+sqlalchemy
+psycopg[binary]
+
+# Validação e Configurações
+pydantic
+pydantic-settings
+email-validator
+
+# Segurança e Criptografia
+passlib[bcrypt]
+
+# Utilitários para Upload/Forms (Geralmente necessário para login futuro)
+python-multipart
